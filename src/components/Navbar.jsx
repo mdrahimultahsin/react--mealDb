@@ -6,7 +6,7 @@ const Navbar = ({handleSearch, searchRef, bookmarked}) => {
     <div className="px-4 md:px-8">
       <div className="navbar justify-between bg-base-100 shadow-sm">
         <div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl">Mealify 🍽️</a>
         </div>
         <div className="flex">
           <input
