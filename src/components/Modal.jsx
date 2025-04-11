@@ -17,7 +17,6 @@ const Modal = ({selectedMealName, bookmarked, handleBookmark}) => {
   const meal = selectedMealData?.[0];
   return (
     <div>
-        
       {/* You can open the modal using document.getElementById('ID').showModal() method */}
 
       <dialog id="my_modal_4" className="modal">
@@ -41,6 +40,7 @@ const Modal = ({selectedMealName, bookmarked, handleBookmark}) => {
                   </div>
                   <div>
                     <button
+                      className="cursor-pointer"
                       onClick={() => handleBookmark(meal)}
                       disabled={bookmarked.includes(meal)}
                     >
