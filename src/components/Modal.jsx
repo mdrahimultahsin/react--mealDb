@@ -21,8 +21,8 @@ const Modal = ({selectedMealName, bookmarked, handleBookmark}) => {
 
       <dialog id="my_modal_4" className="modal">
         <div className="modal-box w-11/12 max-w-5xl flex">
-          <div className="flex gap-4">
-            <div className="max-w-1/2 h-full ">
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="md:max-w-1/2 h-full ">
               <img
                 className="w-full h-full object-cover"
                 src={meal?.strMealThumb}
